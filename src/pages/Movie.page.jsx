@@ -200,7 +200,6 @@ const Movie = () => {
           />
         </div>
       </div>
-      <StickyFooter />
     </>
   );
 };

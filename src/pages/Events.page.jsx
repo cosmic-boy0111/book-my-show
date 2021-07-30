@@ -3,7 +3,6 @@ import React from "react";
 // component
 import Posterplay from "../components/Poster/posterplay.component";
 import PlaysFilter from "../components/PlaysFilters/PlaysFilters.component";
-import StickyFooter from "../components/Footer/footer";
 
 const Events = () => {
   return (
