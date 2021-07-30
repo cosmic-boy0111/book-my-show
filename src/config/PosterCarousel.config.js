@@ -1,9 +1,4 @@
-import React from "react";
-import Slider from "react-slick";
-
-
-export const Premier = () => {
-  const settings = {
+const settings = {
     infinity: false,
     autoplay: false,
     slidesToShow: 5,
@@ -22,30 +17,18 @@ export const Premier = () => {
         breakpoints: 600,
         settings: {
           slidesToShow: 2,
-          slidesToScroll: 1,
-          InitialSlide: 1,
+          slidesToScroll: 2,
+          InitialSlide: 2,
         },
       },
       {
         breakpoints: 480,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 3,
           slidesToScroll: 1,
         },
       },
     ],
   };
-
   
-  return (
-    <>
-      <Slider {...settings}>
-        {PremierImages.map((image) => (
-          <Poster {...image} />
-        ))}
-      </Slider>
-    </>
-  );
-};
-
-export default Premier;
+  export default settings;
